@@ -1,8 +1,8 @@
 n = int(input())
-feb = 28
+
 if n == 2:
-    print(feb)
-elif n%2 == 0:
+    print(28)
+elif n in [4, 6, 9, 11]:
     print(30)
 else:
     print(31)
